@@ -1,0 +1,103 @@
+doctype html
+html.no-js(lang='en')
+  // Mirrored from zoyothemes.com/aeshio/layout/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 May 2021 12:14:39 GMT
+  head
+    meta(charset='UTF-8')
+    |         
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    |         
+    meta(name='description', content='Premium Bootstrap 4 Landing Page Template')
+    |         
+    meta(name='keywords', content='bootstrap 4, premium, marketing, multipurpose')
+    |         
+    meta(name='author', content='Zoyothemes')
+    // Site Title
+    title= title
+    // Site favicon
+    link(rel='shortcut icon', href='images/favicon-img.ico')
+    // Bootstrap core CSS
+    link(rel='stylesheet', href='stylesheets/bootstrap.min.css', type='text/css')
+    // Material Icon
+    link(rel='stylesheet', href='stylesheets/materialdesignicons.min.css')
+    // Pe7 Icon
+    link(rel='stylesheet', href='stylesheets/pe-icon-7.css')
+    // Custom  Css
+    link(rel='stylesheet', href='stylesheets/style.css')
+  |     
+  body.authentication-bg.bg-light
+    // Pre-loader
+    #preloader
+      #status
+        .spinner Loading...
+    // End Preloader
+    .home-btn.d-none.d-sm-block
+      a(href='login.html')
+        i.mdi.mdi-home.h2.text-white
+    |         
+    .account-pages.height-100vh
+      .home-center
+        .home-desc-center
+          .container
+            .row.justify-content-center
+              .col-md-8.col-lg-6.col-xl-5
+                .text-center
+                  a.text-uppercase(href='index.html')
+                    span Aeshio
+                  |                                     
+                  p.text-white.mt-2.mb-4 Responsive Cryptocurrency Template
+                |                                 
+                .card
+                  .card-body.p-4
+                    .text-center.mb-4
+                      h4.text-uppercase.mt-0 Sign In
+                    |                                         
+                    form.login-form(action='#')
+                      .form-group.form-focus.mb-4
+                        label(for='emailaddress') Email address
+                        |                                                 
+                        input#emailaddress.form-control(type='email', required='', placeholder='Enter your email')
+                      |                                             
+                      .form-group.mb-4
+                        label(for='password') Password
+                        |                                                 
+                        input#password.form-control(type='password', required='', placeholder='Enter your password')
+                      |                                             
+                      .form-group.mb-4
+                        .custom-control.custom-checkbox
+                          input#checkbox-signin.custom-control-input(type='checkbox', checked='')
+                          |                                                     
+                          label.custom-control-label(for='checkbox-signin') Remember me
+                      |                                             
+                      .form-group.mb-0.text-center
+                        button.btn.btn-custom.btn-round.btn-block(type='submit')  Log In 
+                  // end card-body
+                // end card
+                .row.mt-3
+                  .col-12.text-center.link-resize
+                    p
+                      a.text-white.ml-1(href='recoverpw.html')
+                        i.fa.fa-lock.mr-1
+                        | Forgot your password?
+                    |                                         
+                    p.text-white
+                      | Don&apos;t have an account? 
+                      a.text-white.ml-1(href='register.html')
+                        b Sign Up
+                  // end col
+                // end row
+              // end col
+            // end row
+          // end container
+    // end page
+    // javascript
+    script(src='javascripts/jquery.min.js')
+    |         
+    script(src='javascripts/bootstrap.bundle.min.js')
+    |         
+    script(src='javascripts/jquery.easing.min.js')
+    |         
+    script(src='javascripts/scrollspy.min.js')
+    |         
+    |         
+    script(src='javascripts/preloader.js')
+    // Mirrored from zoyothemes.com/aeshio/layout/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 May 2021 12:14:42 GMT
